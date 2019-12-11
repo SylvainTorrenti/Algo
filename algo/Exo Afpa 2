@@ -1,12 +1,47 @@
 Exercice 2
-Tant que
+//Tant que
 
 Entier nombre, factorielle
-factorielle <-- nombre
 Début 
 	Ecrire "Veuillez saisir un nombre"
 	Lire nombre
+factorielle <-- nombre
 		Tant que nombre > 0 faire
 factorielle <-- factorielle*nombre
 nombre <-- nombre-1
 		Fin tant que 
+	Ecrire "La factorielle de",nombre "est",factorielle
+Fin
+
+
+
+//repeter
+
+Entier nombre, factorielle
+Début 
+	Ecrire "Veuillez saisir un nombre"
+	Lire nombre
+factorielle <-- nombre
+		Repeter 
+factorielle <-- factorielle*nombre
+nombre <-- nombre-1
+		jusquà nombre=0
+	Ecrire "La factorielle de",nombre "est",factorielle
+Fin 
+
+
+
+//Pour
+
+Entier nombre, factorielle
+Début 
+	Ecrire "Veuillez saisir un nombre"
+	Lire nombre
+factorielle <-- nombre
+		Pour nombre 
+			Faire
+factorielle <-- factorielle*nombre
+nombre <-- nombre-1
+		
+	Ecrire "La factorielle de",nombre "est",factorielle
+Fin 
