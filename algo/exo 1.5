@@ -1,5 +1,5 @@
 1.5
-Réel sommeInitiale, interet, année, sommeFinaleAvecInteretSimple, sommeFinaleAvecInteretComposé
+Réel sommeInitiale, interet, année, sommeFinaleAvecInteretSimple, sommeFinaleAvecInteretComposé, tmpSF
 Début 
 	Ecrire "Veuillez inserer la somme initiale"
 	Lire sommeInitiale
@@ -9,6 +9,13 @@ Début
 	Lire année
 sommeFinaleAvecInteretSimple <-- sommeInitiale*(1+année*interet)
 	Ecrire "La somme finale avec interet simple est de", sommeFinaleAvecInteretSimple
-sommeFinaleAvecInteretComposé <-- sommeInitiale*(1+interet)*année
-	Ecrire "somme finale avec interet composé est de",sommeFinaleAvecInteretComposé
-Fin 
+		Tant que année>0
+		tmpSF <-- (1+interet)
+		tmpSF <-- tmpSF+tmpSF
+		année <-- année-1
+		Fin tant que
+sommeFinaleAvecInteretComposé <-- sommeFinaleAvecInteretComposé+(tmpSF*sommeInitiale)
+	Ecrire "somme finale avec interet composé est de",sommeFinaleAvecInteretCompose
+	
+	
+	
