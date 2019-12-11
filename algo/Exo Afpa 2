@@ -4,9 +4,9 @@ Tant que
 Entier nombre, factorielle
 factorielle <-- nombre
 Début 
-Ecrire "Veuillez saisir un nombre"
-Lire nombre
-Tant que nombre > 0 faire
+	Ecrire "Veuillez saisir un nombre"
+	Lire nombre
+		Tant que nombre > 0 faire
 factorielle <-- factorielle*nombre
-nombre <-- nombre -1
-Fin tant que 
+nombre <-- nombre-1
+		Fin tant que 

@@ -2,10 +2,10 @@
 Entier x,y
 Réel R
 Début
-Ecrire "Veuillez saisir 1 nombre"
-Lire x
-Ecrire "Veuillez saisir 1 nombre"
-Lire y
+	Ecrire "Veuillez saisir 1 nombre"
+	Lire x
+	Ecrire "Veuillez saisir 1 nombre"
+	Lire y
 R <-- (x+y)/2
-Ecrire "La moyenne de", x, "et", y," est : ", R
+	Ecrire "La moyenne de", x, "et", y," est : ", R
 Fin 
