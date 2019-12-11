@@ -9,7 +9,7 @@ Tant que n>=0
 somme <-- somme+n
 n <-- n-1
 Fin tant que
-Ecrire « Le résultat avec tant que est : », somme
+Ecrire "Le résultat avec tant que est :", somme
 Fin
 
 Repeter
@@ -22,7 +22,7 @@ Repeter
 somme <-- somme+n
 n <-- n-1
 jusquà n=0
-Ecrire « Le résultat avec Repeter est : », somme
+Ecrire "Le résultat avec Repeter est :", somme
 Fin
 
 
@@ -37,5 +37,5 @@ Pour n
 	somme <-- somme+n
 	n <-- n-1
 Fin Pour 
-Ecrire « Le résultat avec Pour est : », somme
+Ecrire "Le résultat avec Pour est :", somme
 Fin 
