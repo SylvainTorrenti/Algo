@@ -8,46 +8,4 @@ Ecrire "Veuillez saisir 1 nombre"
 Lire y
 R <-- (x+y)/2
 Ecrire "La moyenne de", x, "et", y," est : ", R
-
-
-1.1.2
-Entier x,y
-Réel R
-Chaîne reponse 
-Début
-reponse <-- oui
-Tant que reponse=Oui Alors
-	Ecrire "Veuillez saisir 1 nombre"
-	Lire x
-	Ecrire "Veuillez saisir 1 nombre"
-	Lire y
-	R <-- (x+y)/2
-	Ecrire "La moyenne de", x, "et", y, "est :", R
-	Ecrire "Souhaitez-vous faire un autre calcul ? (Oui/Non)"
-	Ecrire "Appuyez sur une touche pour quitter"
-Fin tant que
-
-1.1.3
-Entier X, N, S
-Réel R
-Chaîne reponse
-Début
-reponse <-- oui
-Tant que reponse=oui Alors
-	Ecrire "veuillez saisir 1 nombre"
-	Lire X
-	S <-- X+S
-	Ecrire "Souhaitez-vous ajoutez un nombre? (Oui/Non)"
-	N <-- N+1
-	R <-- S/N
-	Ecrire "La moyenne est de",R
-Fin tant que
-
-1.2
-Réel R,  aire, volume
-Début
-Lire R
-Aire <-- 4π R2
-Volume <-- 4/3π R3
-Ecrire "L’aire de la sphère est :", aire, "et son volume est :", volume
 Fin 
