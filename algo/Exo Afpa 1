@@ -1,9 +1,42 @@
 Exercice 1
+Tant que 
 
-Entier nombre, somme
+Entier n, somme, nombre
 Début 
-somme : 0
-Tant que nombre saisit
-	somme :=lireEntier()
+Tant que n>=0
+Ecrire "veuillez saisir un nombre"
+Lire nombre
+somme <-- somme+n
+n <-- -1
 Fin tant que
-Ecrire "La somme est de",somme
+Ecrire « Le résultat avec tant que est : », somme
+Fin
+
+Repeter
+
+Entier n, somme, nombre
+Début 
+Ecrire "veuillez saisir un nombre"
+Lire nombre
+Repeter
+somme <-- somme+n
+n <-- -1
+jusquà n=0
+Ecrire « Le résultat avec Repeter est : », somme
+Fin
+
+
+Pour
+
+Entier n, somme, nombre
+Début 
+Ecrire "veuillez saisir un nombre"
+Lire nombre
+n <-- nombre
+Pour n 
+	Faire 
+	somme <-- somme+n
+	n <-- -1
+Fin Pour 
+Ecrire « Le résultat avec Pour est : », somme
+Fin 
