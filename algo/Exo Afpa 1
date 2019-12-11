@@ -1,26 +1,26 @@
 Exercice 1
 Tant que 
 
-Entier n, somme, nombre
+Entier n, somme
 Début 
-Tant que n>=0
 Ecrire "veuillez saisir un nombre"
-Lire nombre
+Lire n
+Tant que n>=0
 somme <-- somme+n
-n <-- -1
+n <-- n-1
 Fin tant que
 Ecrire « Le résultat avec tant que est : », somme
 Fin
 
 Repeter
 
-Entier n, somme, nombre
+Entier n, somme,
 Début 
 Ecrire "veuillez saisir un nombre"
-Lire nombre
+Lire n
 Repeter
 somme <-- somme+n
-n <-- -1
+n <-- n-1
 jusquà n=0
 Ecrire « Le résultat avec Repeter est : », somme
 Fin
@@ -28,15 +28,14 @@ Fin
 
 Pour
 
-Entier n, somme, nombre
+Entier n, somme,
 Début 
 Ecrire "veuillez saisir un nombre"
-Lire nombre
-n <-- nombre
+Lire n
 Pour n 
 	Faire 
 	somme <-- somme+n
-	n <-- -1
+	n <-- n-1
 Fin Pour 
 Ecrire « Le résultat avec Pour est : », somme
 Fin 
