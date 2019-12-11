@@ -5,6 +5,7 @@ Chaîne reponse
 Début
 reponse <-- oui
 S <-- 0
+N <-- 1
 Tant que reponse=oui
 	Ecrire "veuillez saisir 1 nombre"
 	Lire X
@@ -12,6 +13,7 @@ Tant que reponse=oui
 	Ecrire "Souhaitez-vous ajoutez un nombre? (Oui/Non)"
 	N <-- N+1
 	Lire reponse
+	Lire N
 Fin tant que
 R <-- S/N
 Ecrire "La moyenne est de",R
