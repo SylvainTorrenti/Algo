@@ -1,0 +1,9 @@
+Exercice 1
+
+Entier nombre, somme
+Début 
+somme : 0
+Tant que nombre saisit
+	somme :=lireEntier()
+Fin tant que
+Ecrire "La somme est de",somme
